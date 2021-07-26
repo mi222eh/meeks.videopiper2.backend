@@ -17,10 +17,10 @@
         "@types/lodash": "^4.14.170",
         "date-fns": "^2.22.1",
         "electron": "^13.0.1",
-        "ffmpeg-js-dal": "git+https://gitlab.com/micke.shi/ffmpeg-js-dal.git",
         "fs-extra": "^10.0.0",
         "lodash": "^4.17.21",
         "logger": "0.0.1",
-        "youtube-dl-dal": "git+https://gitlab.com/micke.shi/youtube-dl-js.git"
+        "meeks.nodejs.ffmpeg": "git+https://github.com/mi222eh/meeks.nodejs.ffmpeg.git",
+        "meeks.nodejs.youtube-dl": "git+https://github.com/mi222eh/meeks.nodejs.youtube-dl.git"
     }
 }

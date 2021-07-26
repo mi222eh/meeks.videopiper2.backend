@@ -1,7 +1,7 @@
 import { SetInvokeFunction } from "./InvokeHandler";
 import "./loggerInvokations";
-import * as youtubedl from "youtube-dl-dal";
-import * as ffmpeg from "ffmpeg-js-dal";
+import * as youtubedl from "meeks.nodejs.youtube-dl";
+import * as ffmpeg from "meeks.nodejs.ffmpeg";
 import lodash from "lodash";
 import events from "events";
 import { Log, LogError, LogInfo, LogWarning } from "./logger/logManager";
