@@ -4,8 +4,8 @@ exports.InitElectron = exports.IndexEvents = exports.Electron = void 0;
 const tslib_1 = require("tslib");
 const InvokeHandler_1 = require("./InvokeHandler");
 require("./loggerInvokations");
-const youtubedl = tslib_1.__importStar(require("youtube-dl-dal"));
-const ffmpeg = tslib_1.__importStar(require("ffmpeg-js-dal"));
+const youtubedl = tslib_1.__importStar(require("meeks.nodejs.youtube-dl"));
+const ffmpeg = tslib_1.__importStar(require("meeks.nodejs.ffmpeg"));
 const events_1 = tslib_1.__importDefault(require("events"));
 const logManager_1 = require("./logger/logManager");
 class IndexEvent extends events_1.default {
